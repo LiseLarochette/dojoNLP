@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
-from datetime import datetime
+import nltk
+nltk.download('popular')
 
 st.title('DOJO NLP')
 
