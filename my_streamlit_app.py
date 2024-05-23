@@ -3,6 +3,8 @@ import pandas as pd
 import re
 
 st.title('DOJO NLP')
+st.write('Please insert a sentence:')
+
 
 phrase = input("Please insert a sentence:")
 
