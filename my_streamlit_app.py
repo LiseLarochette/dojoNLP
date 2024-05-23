@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
-import nltk
-nltk.download('popular')
+
 
 st.title('DOJO NLP')
 
