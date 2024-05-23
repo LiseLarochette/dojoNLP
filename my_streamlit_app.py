@@ -2,8 +2,9 @@ import streamlit as st
 import pandas as pd
 import re
 
+st.title('DOJO NLP')
 
-
+phrase = input("Please insert a sentence:")
 
 # Ajouter des boutons pour chaque fonctionnalité
 if st.button("Stemmer"):
